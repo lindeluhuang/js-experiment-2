@@ -1,0 +1,53 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    
+    color: #2a2a2a;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Overlock', serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    background-color: #B92E1C;
+    color: white;
+
+    font-family: 'Overlock', serif;
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 32px;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    min-height: 100vh;
+
+    transform: translate(240px, 0);
+
+}
